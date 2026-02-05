@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d0bff3932e8794cbe1821ec022706a, type: 3}
+  m_Name: BC_PalePeaks
+  m_EditorClassIdentifier: Assembly-CSharp::Trine.World.Biome.BiomeConfigSO
+  id: pale_peaks
+  displayName: Pale Peaks
+  priority: 300
+  height01: {x: 0.6, y: 1}
+  temp01: {x: 0, y: 0.45}
+  moist01: {x: 0, y: 0.6}
+  slope01: {x: 0.35, y: 1}
+  dist01: {x: 0.5, y: 1}
+  flattenStrength: 0
+  smoothStrength: 0.05
+  peakStrength: 0.55
+  waterTableBiasMeters: 0

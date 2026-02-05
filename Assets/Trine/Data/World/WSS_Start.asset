@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28bda0f0f885c784b812d928cdd04a89, type: 3}
+  m_Name: WSS_Start
+  m_EditorClassIdentifier: Assembly-CSharp::Trine.World.Start.WorldStartSettingsSO
+  targetBiomeId: nayavi
+  minRadius: 20
+  maxRadius: 650
+  step: 14
+  maxAttempts: 5000
+  minLandMask01: 0.65
+  minAboveOceanMeters: 1.2
+  maxSlope01: 0.22
+  spawnLiftMeters: 0.25
